@@ -9,7 +9,7 @@ A rede Hotel Trybe agradeceu pelos serviços prestados anteriormente! Mas a pág
 
 Assim, a página ficará parecida com a imagem:
 
-![](responsivo.png)
+<img src="responsivo.png" height="200px">
 
 Antes de iniciar os trabalhos, uma das pessoas da dupla deverá clonar esse repositório.<br>
 Não será preciso criar branch e nem abrir Pull Request.<br><br>
