@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Trybe</title>
+</head>
+
+<body>
+  <header class="header-trybe">
+    <h1>Hotel Trybe</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s" alt="">
+  </header>
+
+  <form action="" class="form">
+    <section class="hotel-form checkin">
+      <label for="checkin">Nome</label>
+      <input type="text" class="inputCheckin form-control">
+      <label for="checkin">Sobrenome</label>
+      <input type="text" class="inputCheckout form-control">
+    </section>
+
+    <section class="hotel-form checkin">
+      <label for="checkin">Check-in</label>
+      <input type="date" class="inputCheckin form-control">
+      <label for="checkin">Check-out</label>
+      <input type="date" class="inputCheckout form-control">
+    </section>
+
+    <section class="hotel-form type">
+      <p class="lead">Acomodação</p>
+      <div class="bedroom-types">
+        <div class="bedroom-option">
+          <input type="radio" name="quarto" value="comum" class="bedroom" id="bedroom">
+          <label for="bedroom">Comum</label>
+        </div>
+        <div class="bedroom-option">
+          <input type="radio" name="quarto" value="club" class="bedroom" id="bedroom">
+          <label for="bedroom">Club</label>
+        </div>
+        <div class="bedroom-option">
+          <input type="radio" name="quarto" value="luxo" class="bedroom" id="bedroom">
+          <label for="bedroom">Luxo</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="hotel-form">
+      <label for="people">Número de Hóspedes</label>
+      <select name="people" id="people" class="nPessoas form-select">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </section>
+
+    <section class="hotel-form checkin">
+      <label for="checkin">Telefone</label>
+      <input type="number" class="inputCheckin form-control">
+      <label for="checkin">E-mail</label>
+      <input type="email" class="inputCheckout form-control">
+    </section>
+
+    <section class="hotel-form">
+      <textarea name="obs" placeholder="Observações" class="obs form-control"></textarea>
+    </section>
+    <button class="btn btn-success">Reservar</button>
+  </form>
+
+</body>
+
+</html>

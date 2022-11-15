@@ -1,0 +1,98 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  border: black solid 1px;
+  padding: 30px;
+}
+
+.header-trybe {
+  display: block;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+.header-trybe img {
+  margin-top: 12px;
+  height: 70px;
+}
+
+.hotel-form {
+  margin: 25px;
+  color: rgb(73, 73, 73);
+  font-size: 25px;
+}
+
+.checkin {
+  display: flex;
+  justify-content: center;
+}
+
+.checkin input {
+  width: 200px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.checkin input:last-child {
+  margin-right: 0;
+}
+
+.type {
+  border: 0.5px solid #DCDCDC;
+  padding: 20px 0;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.nPessoas {
+  width: 30%;
+  margin: 0px auto;
+}
+
+.obs {
+  box-sizing: content-box;
+  padding: 10px;
+  resize: none;
+  width: 90%;
+  height: 100px;
+  margin: 0px auto;
+}
+
+.btn {
+  padding: 20px 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .checkin {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkin input {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .bedroom-types {
+    flex-direction: column;
+  }
+
+  .obs {
+    width: 50%;
+  }
+
+}
