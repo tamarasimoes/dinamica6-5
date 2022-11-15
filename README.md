@@ -27,3 +27,4 @@ Caso seja de preferência da dupla, é permitido realizar _fork_ (cópia) do rep
 
 Teremos 40 minutos direcionados para a dinâmica.<br>
 Caso não seja possível terminar, podem continuar fazendo o trabalho posteriormente.<br>
+Dica de extensão: [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=pt-BR)
