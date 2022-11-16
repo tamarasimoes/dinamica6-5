@@ -75,3 +75,20 @@ main {
 }
 
 /* Seu código aqui */
+
+@media screen and (max-width: 600px) {
+  form section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkin input {
+    width: 200px;
+    margin: 0;
+  }
+
+  .obs {
+    width: 50%;
+  }
+
+}
